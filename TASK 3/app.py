@@ -18,7 +18,7 @@ def load_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-load_css("D:\CS TASKS\TASK 3\style.css")
+load_css("style.css")
 
 # Animation
 lottie_coding = load_lottieurl("https://lottie.host/05c0c55f-3c9e-4abd-971a-8e0b3a176d58/mQ2zlnFaj8.json")
@@ -86,7 +86,7 @@ with st.container():
 
 # -------------- RIGHT side -----------------
     with col_right:
-        st.image("D:\CS TASKS\TASK 3\IMG-1.png", width=500)
+        st.image("IMG-1.jpg", width=500) 
 
 
 # -------------------------- THRID CONTAINER (contanct) ---------------------------------------
