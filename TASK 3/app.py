@@ -86,7 +86,7 @@ with st.container():
 
 # -------------- RIGHT side -----------------
     with col_right:
-        st.image("TASK 3/IMG-1.jpg", width=500) 
+        st.image("TASK 3/IMG-1.png", width=500) 
 
 
 # -------------------------- THRID CONTAINER (contanct) ---------------------------------------
