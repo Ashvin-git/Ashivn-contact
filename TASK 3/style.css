@@ -1,0 +1,62 @@
+/* === Neo-Galaxic + Gradient Style for Ashvin === */
+
+input[type=email],
+input[type=text],
+textarea {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #1b1f3b, #232946);
+  border: 2px solid #00ffc3;
+  color: #ffffff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  resize: vertical;
+  font-size: 16px;
+  box-shadow: 0 0 8px #00ffc3;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #a8b2d1;
+}
+
+textarea {
+  height: 150px;
+}
+
+/* === Neon Gradient Submit Button === */
+button[type=submit] {
+  background: linear-gradient(90deg, #00ffc3, #7792E3, #ff6ec7);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 12px #00ffc3;
+}
+
+button[type=submit]:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ff6ec7, #7792E3, #00ffc3);
+  box-shadow: 0 0 20px #ff6ec7;
+}
+
+/* === Headings and Paragraphs === */
+h1, h2, h3, p {
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* === Form Block === */
+form {
+  padding: 20px;
+  background: linear-gradient(145deg, #14162b, #1b1d3a);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
